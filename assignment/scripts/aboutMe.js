@@ -1,7 +1,7 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 
-let firstName = "Anders ";
+let firstName = "Anders";
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 
@@ -10,7 +10,7 @@ let lastName = "Boyum";
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
-let fullName = firstName + lastName;
+let fullName = firstName + ' ' + lastName;
 
 // 4 - Console log the value of `fullName`
 
@@ -52,7 +52,7 @@ const allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
-if(adventurous = true){
+if(adventurous == true){
 
     console.log("Adventures are great!");
 }
@@ -75,7 +75,7 @@ if(luckyNumber == 2 && adventurous == true){
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-if( pets <= allowedPets ){
+if( pets < allowedPets ){
 
     console.log("I can have more pets!");
 }
